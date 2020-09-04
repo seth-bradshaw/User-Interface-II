@@ -32,7 +32,7 @@ body{
     font-size:1.8rem;
     line-height:1.5;
     font-family: 'Playfair Display', serif;
-    
+    background-color:#dfd9d9;
 }
 img{
     width:25%;
@@ -43,7 +43,7 @@ img{
     justify-content: center;
 }
 .title{
-    background-color:brown;
+    background-color:#ffaa80;
     padding:2%;
 }
 h1{
@@ -59,13 +59,15 @@ nav a{
     display:inline-block;
     width:8%;
     padding:.5% .8%;
-    background-color:black;
+    background-color:#404040;
     text-align:center;
+    border-radius:25px;
 }
 nav a:hover{
     background-color:white;
-    color:black;
+    color:#404040;
     transition:2s;
+    border-radius:25px;
 }
 .intro{
     display:flex;
@@ -76,6 +78,7 @@ nav a:hover{
     border-radius:20%;
     width:50%;
     max-height:600px;
+    border:3px solid white;
 }
 .introtxt{
     display: flex;
@@ -84,25 +87,32 @@ nav a:hover{
     padding:10%;
 }
 h2{
-    color:brown;
+    color:#ffaa80;
     font-family: 'Cabin', sans-serif;
     font-size: 5.5rem;
     margin:5% 0%;
 }
 .button1 {
-    background-color: black;
+    background-color: #404040;
     color:white;
     text-decoration:none;
     font-family: 'Cabin', sans-serif;
     font-size:3rem;
-    width:30%;
+    width:25%;
+    padding:2% 0;
+    border-radius:25px;
+    border:none;
 }
 .button1:hover{
     background-color:white;
-    color:black;
+    color:#404040;
     transition:2s;
+    font-weight:200;
+    border-radius:25px;
+    border:none;
 }
 .introtxt p{
+    color:white;
     padding-top:3%;
     text-align:left;
     font-size:3rem;
@@ -119,7 +129,7 @@ h2{
     height:400px;
 }
 footer{
-    background-color:brown;
+    background-color:#ffaa80;
     color:white;
 }
 .footertxt{
@@ -135,15 +145,17 @@ h4{
     padding-bottom:1%;
 }
 .button2{
-    background-color: black;
+    background-color: #404040;
     color:white;
     text-decoration:none;
     font-family: 'Cabin', sans-serif;
     font-size:2rem;
     width:100%;
+    border-radius:25px;
 }
 .button2:hover{
     background-color:white;
-    color:black;
+    color:#404040;
     transition:2s;
+    border-radius:25px;
 }
